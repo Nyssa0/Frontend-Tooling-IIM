@@ -1,1 +1,92 @@
 @import "mixins";
+@import "variables";
+
+body {
+  background-color: $grass-green;
+  font-family: $font;
+}
+
+h1 {
+  @include text("h1");
+  text-align: center;
+}
+
+.pokedex {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 285px);
+  justify-content: center;
+  gap: 10px;
+
+  @media ($large-up) {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  @media ($widescreen-up) {
+    grid-template-columns: repeat(4, auto);
+  }
+}
+
+.card {
+  position: relative;
+  height: 400px;
+  width: 285px;
+}
+
+.card__background {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.card__content {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.pokemon__header {
+  @include text("h2");
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 26px;
+  padding-left: 60px;
+  padding-right: 30px;
+
+  & div:first-child {
+    text-transform: capitalize;
+  }
+
+  span {
+    font-size: 14px;
+  }
+}
+
+.pokemon__image {
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //object-fit: contain;
+
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    //width: 100%;
+  }
+}
+
+.pokemon__footer {
+  @include text("h3");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+}

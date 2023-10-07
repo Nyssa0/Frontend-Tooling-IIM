@@ -1,6 +1,7 @@
 <div align="center">
 
 # 👋🏼 Hello ~~world~~ coders ! I'm Hassina aka Nyssa 👋🏼
+
 <br />
 <center></center>
 <img alt="logo" src="https://static.wixstatic.com/media/51e30d_d51e9a7675b14fec9050c17c133eb4e4~mv2.gif" width="300px" />
@@ -8,6 +9,7 @@
 # Frontend Tooling
 
 ## Table of contents
+
 1. [Introduction](#-introduction-)
 2. [Languages & Tools](#-languages--tools-)
 3. [Set up](#-set-up-)
@@ -17,9 +19,11 @@
 7. [Bonus](#-bonus-)
 
 ## 🖥 Introduction 🖥
+
 This project was made to create a boilerplate that I will be able to use on my future projects. The goal of this project was also to search for different tools to use regularly as a developer.
 
 ### 🗓 Date 🗓
+
 ```
 10/08/2023
 ```
@@ -39,15 +43,19 @@ This project was made to create a boilerplate that I will be able to use on my f
 ## 🛠 Set up 🛠
 
 ### Yarn
+
 ```
 yarn init
 ```
 
 ### Vite
+
 ```
 yarn add vite
 ```
+
 package.json
+
 ```json
 "scripts": {
   "dev": "vite"
@@ -55,15 +63,19 @@ package.json
 ```
 
 ### Eslint
+
 ```
 npm init @eslint/config
 ```
 
 ### Jest
+
 ```
 yarn add --dev jest
 ```
+
 package.json
+
 ```json
 "scripts": {
     "test": "jest"
@@ -71,10 +83,13 @@ package.json
 ```
 
 ### Husky
+
 ```
 yarn add husky-init --yarn2 && yarn
 ```
+
 package.json
+
 ```json
 "scripts": {
   "prepare": "husky install"
@@ -82,11 +97,14 @@ package.json
 ```
 
 ### Prettier
+
 ```
 yarn add --dev --exact prettier
 node --eval "fs.writeFileSync('.prettierrc','{}\n')"
 ```
+
 package.json
+
 ```json
 "scripts": {
   "prettier": "prettier . --write"
@@ -94,10 +112,13 @@ package.json
 ```
 
 ### Eslint-config-prettier
+
 ```
 npm install --save-dev eslint-config-prettier
 ```
+
 .eslintrc.json
+
 ```json
 "extends": [
     "eslint:recommended",
@@ -106,10 +127,13 @@ npm install --save-dev eslint-config-prettier
 ```
 
 ### Sass
+
 ```
 npm install -g sass
 ```
+
 package.json
+
 ```json
 "scripts": {
   "sass": "sass --watch style/style.scss:style/style.css"
@@ -117,11 +141,13 @@ package.json
 ```
 
 ## 👩🏻‍💻 Authors 🧑🏻‍💻
+
 ```
 Hassina AYACHI aka Nyssa0
 ```
 
 ## 👀 Have a look at my [GitHub][GitHub] 👀
+
 <img alt="git" width="25%" src="https://media3.giphy.com/media/487L0pNZKONFN01oHO/giphy.gif?cid=790b7611243e5aec32fb90d5f0413a6f1f5685fcdbf9dbaf&rid=giphy.gif&ct=g" width="200px"/>
 
 ## 🤙🏼 Contact me 🤙🏼
@@ -131,10 +157,11 @@ Hassina AYACHI aka Nyssa0
 
 ## 💎 Bonus 💎
 
-### _Just me pretending to be smart_ ###
+### _Just me pretending to be smart_
+
 [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal)](https://github.com/piyushsuthar/github-readme-quotes)
 
-### _Just me pretending to be funny_ ###
+### _Just me pretending to be funny_
 
 ![Jokes Card](https://readme-jokes.vercel.app/api?bgColor=%23212529&textColor=%23ffddd2&qColor=%23FE4676&aColor=%23F3A628&borderColor=%23000&codeColor=%23f9c74f)
 
