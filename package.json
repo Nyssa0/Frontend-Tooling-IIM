@@ -1,0 +1,14 @@
+{
+  "name": "Frontend-Tooling",
+  "version": "0.0.1",
+  "main": "script.js",
+  "repository": "https://github.com/Nyssa0/Frontend-Tooling-IIM.git",
+  "author": "Hassina",
+  "license": "MIT",
+  "dependencies": {
+    "vite": "^4.4.11"
+  },
+  "scripts": {
+    "dev": "vite"
+  }
+}
