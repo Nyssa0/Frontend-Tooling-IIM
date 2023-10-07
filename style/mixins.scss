@@ -1,0 +1,20 @@
+@import "fonts";
+
+@mixin text($type) {
+	font-family: $font;
+	@if $type == 'paragraph' {
+		font-size: 16px;
+		line-height: 16px;
+	} @else if $type == 'h1' {
+		font-size: 50px;
+		line-height: 50px;
+	} @else if $type == 'h2' {
+		font-size: 18px;
+		line-height: 18px;
+		font-weight: $font-weight-semibold;
+	} @else if $type == 'h3' {
+		font-size: 18px;
+		line-height: 18px;
+		font-weight: $font-weight-medium;
+	}
+}
