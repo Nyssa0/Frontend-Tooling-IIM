@@ -20,7 +20,7 @@
 
 ## 🖥 Introduction 🖥
 
-This project was made to create a boilerplate that I will be able to use on my future projects. The goal of this project was also to search for different tools to use regularly as a developer.
+This project was made to create a boilerplate that I will be able to use on my future projects. The goal of this project was also to search for different tools to use regularly as a developer. On the main branch you will find the boilerplate and I made a Pokedex based on it (on the pokedex branch) so that we can have an example on how to use the boilerplate.
 
 ### 🗓 Date 🗓
 
