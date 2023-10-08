@@ -13,6 +13,14 @@
 1. [Introduction](#-introduction-)
 2. [Languages & Tools](#-languages--tools-)
 3. [Set up](#-set-up-)
+  - [Yarn](#yarn)
+  - [Vite](#vite)
+  - [Eslint](#eslint)
+  - [Jest](#jest)
+  - [Husky](#husky)
+  - [Prettier](#prettier)
+  - [Eslint-config-prettier](#eslint-config-prettier)
+  - [Sass](#sass)
 4. [Authors](#-authors-)
 5. [GitHub](#-have-a-look-at-my-github-)
 6. [Contact](#-contact-me-)
@@ -62,6 +70,11 @@ package.json
 }
 ```
 
+To use
+```
+yarn dev
+```
+
 ### Eslint
 
 ```
@@ -80,6 +93,11 @@ package.json
 "scripts": {
     "test": "jest"
 }
+```
+
+To use
+```
+yarn test
 ```
 
 ### Husky
@@ -111,6 +129,11 @@ package.json
 }
 ```
 
+To use
+```
+yarn prettier
+```
+
 ### Eslint-config-prettier
 
 ```
@@ -138,6 +161,11 @@ package.json
 "scripts": {
   "sass": "sass --watch style/style.scss:style/style.css"
 }
+```
+
+To use
+```
+yarn sass
 ```
 
 ## 👩🏻‍💻 Authors 🧑🏻‍💻
